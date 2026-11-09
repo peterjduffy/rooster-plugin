@@ -7,8 +7,18 @@
     "name": "Rooster",
     "url": "https://rooster.cam"
   },
-  "homepage": "https://rooster.cam/help/connect-an-ai-app",
+  "homepage": "https://rooster.cam",
+  "documentationUrl": "https://rooster.cam/help/connect-an-ai-app",
+  "supportUrl": "https://rooster.cam/support",
+  "privacyPolicyUrl": "https://rooster.cam/privacy",
+  "termsOfServiceUrl": "https://rooster.cam/terms",
   "repository": "https://github.com/peterjduffy/rooster-plugin",
   "license": "MIT",
-  "keywords": ["video", "video editing", "transcript", "captions", "mac"]
+  "keywords": [
+    "video",
+    "video editing",
+    "transcript",
+    "captions",
+    "mac"
+  ]
 }
