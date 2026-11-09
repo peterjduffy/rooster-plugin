@@ -1,6 +1,6 @@
-# Rooster for Claude
+# Rooster for Claude and Cursor
 
-Let Claude edit your [Rooster](https://rooster.cam) video projects on your Mac. Ask it to remove the filler words, cut a sentence, add a zoom, turn on captions, put a title over the opening, save a frame or export the video. Every edit lands at once in the open project as one undo step, so Edit > Undo in Rooster takes it back.
+Let Claude or Cursor edit your [Rooster](https://rooster.cam) video projects on your Mac. Ask it to remove the filler words, cut a sentence, add a zoom, turn on captions, put a title over the opening, save a frame or export the video. Every edit lands at once in the open project as one undo step, so Edit > Undo in Rooster takes it back.
 
 ## What you need
 
@@ -17,7 +17,7 @@ In Claude Code:
 /plugin install rooster --marketplace peterjduffy/rooster-plugin
 ```
 
-Or add it from the plugin directory in Claude.
+Or add it from the plugin directory in Claude. In Cursor, add it from the Cursor Marketplace once it is listed there.
 
 ## What it runs
 
@@ -29,7 +29,7 @@ The plugin uploads nothing and sends nothing anywhere. Claude reads your project
 
 ## Where it works
 
-Claude Code, and Cowork running on your Mac. Claude chat does not run local servers: use **Connect** in Rooster's Settings > AI Apps for the Claude desktop app.
+Claude Code, Cowork running on your Mac, and Cursor. Claude chat does not run local servers: use **Connect** in Rooster's Settings > AI Apps for the Claude desktop app.
 
 ## Help
 
