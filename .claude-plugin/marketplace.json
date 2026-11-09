@@ -1,0 +1,15 @@
+{
+  "name": "rooster",
+  "description": "Rooster's plugin for Claude: edit Rooster video projects on your Mac.",
+  "owner": {
+    "name": "Rooster",
+    "url": "https://rooster.cam"
+  },
+  "plugins": [
+    {
+      "name": "rooster",
+      "source": "./",
+      "description": "Edit your Rooster video projects on your Mac from Claude."
+    }
+  ]
+}

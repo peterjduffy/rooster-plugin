@@ -1,0 +1,14 @@
+{
+  "name": "rooster",
+  "displayName": "Rooster",
+  "version": "1.3.0",
+  "description": "Edit your Rooster video projects on your Mac: read the transcript, cut, add zooms, captions and titles, save frames and export. Needs the Rooster app.",
+  "author": {
+    "name": "Rooster",
+    "url": "https://rooster.cam"
+  },
+  "homepage": "https://rooster.cam/help/connect-an-ai-app",
+  "repository": "https://github.com/peterjduffy/rooster-plugin",
+  "license": "MIT",
+  "keywords": ["video", "video editing", "transcript", "captions", "mac"]
+}
