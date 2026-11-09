@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "rooster": {
-      "command": "${CLAUDE_PLUGIN_ROOT}/scripts/start-rooster.sh",
-      "args": []
+      "command": "sh",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/start-rooster.sh"]
     }
   }
 }
