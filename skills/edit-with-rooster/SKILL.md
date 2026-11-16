@@ -7,6 +7,10 @@ description: Edit a video in the Rooster app on this Mac - tidy a recording, cut
 
 Rooster is a transcript-first video editor for Mac. Its tools work on the user's Rooster projects through the open app. Every edit lands at once in Rooster as one undo step, named for what it did, so the user can take it back with Edit > Undo.
 
+## Connect Rooster first
+
+This skill needs Rooster's tools, which Rooster itself connects. If tools such as `list_projects` are not available, Rooster is not connected yet. Tell the user to open Rooster, choose Rooster > Settings > AI, and press Connect beside their AI app - or Copy Command for Claude Code and paste it in Terminal. Rooster must be in the Applications folder. Help: https://rooster.cam/help/connect-an-ai-app
+
 ## Find the project and read it first
 
 1. `list_projects` shows the projects and marks the one open in Rooster. Leave `project` out to use the open one, or pass an id or title from this list.
@@ -34,6 +38,6 @@ The tools that take something away - the tidy-up tools, `cut_quote`, `remove_zoo
 ## If a tool says Rooster is off or missing
 
 - Rooster must be installed in the Applications folder.
-- In Rooster, Settings > AI Apps > "Let AI apps use Rooster" must be on. With it off, the tools say so: ask the user to turn it on.
+- In Rooster, Settings > AI > "Let AI apps use Rooster" must be on. With it off, the tools say so: ask the user to turn it on.
 - If Rooster is closed and the switch is on, the first call opens it.
 - A project the user marked "Keep Out of AI Apps" cannot be seen or changed.
