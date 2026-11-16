@@ -10,6 +10,6 @@
   "homepage": "https://rooster.cam",
   "repository": "https://github.com/peterjduffy/rooster-plugin",
   "license": "MIT",
-  "keywords": ["video", "video editing", "transcript", "captions", "mac", "mcp"],
+  "keywords": ["video", "video editing", "transcript", "captions", "mac"],
   "logo": ".claude-plugin/icon.png"
 }

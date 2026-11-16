@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "rooster": {
-      "command": "${CURSOR_PLUGIN_ROOT}/scripts/start-rooster.sh",
-      "args": []
-    }
-  }
-}
